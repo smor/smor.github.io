@@ -1,163 +1,249 @@
 {
   "basics": {
-    "name": "Molly Maluhia",
-    "label": "Student",
-    "picture": "https://techfolios.github.io/template/images/molly.png",
-    "email": "molly@hawaii.edu",
-    "phone": "808-333-4444",
-    "website": "https://mmaluhia.github.io",
-    "summary": "I am studying for a B.S. in Computer Science in the Department of Information and Computer Sciences at the University of Hawaii. I expect to graduate in Spring, 2020.",
+    "name": "Stéphane MOR",
+    "label": "Innovation through art and technology",
+    "picture": "/images/smor.jpg",
+    "email": "stephanemor@gmail.com",
+    "phone": "+33 6 40 11 52 80",
+    "website": "https://smor.github.io",
+    "summary": "I'm a self-taught software engineer with a strong interest in online 3D and innovation.",
     "location": {
-      "address": "",
-      "postalCode": "96822",
-      "city": "Honolulu",
-      "countryCode": "USA",
-      "region": "Hawaii"
+      "address": "6 bis, rue de l'Oiselière",
+      "postalCode": "69009",
+      "city": "Lyon",
+      "countryCode": "FRA",
+      "region": ""
     },
     "profiles": [
       {
         "network": "github",
-        "username": "mmaluhia",
-        "url": "http://github.com/changeme"
+        "username": "smor",
+        "url": "http://github.com/smor"
       },
       {
         "network": "linkedin",
-        "username": "mollymaluhia",
-        "url": "http://linkedin.com/in/changeme"
+        "username": "stephanemor",
+        "url": "http://linkedin.com/in/stephanemor"
       },
       {
         "network": "twitter",
-        "username": "mollymal",
-        "url": "http://twitter.com/changeme"
-      },
-      {
-        "network": "instagram",
-        "username": "molly",
-        "url": "http://instagram.com/changeme"
+        "username": "stephanemor",
+        "url": "http://twitter.com/stephanemor"
       }
     ]
   },
   "interests": [
     {
-      "name": "internet of things",
-      "keywords": [
-        "Arduino",
-        "TI MSP430"
-      ]
-    },
-    {
-      "name": "data mining",
+      "name": "Innovation",
       "keywords": [
       ]
     },
     {
-      "name": "artificial intelligence",
+      "name": "3D scanning",
       "keywords": [
+        "photogrammetry",
+        "laser scanning"
+      ]
+    },
+    {
+      "name": "3D modeling",
+      "keywords": [
+        "generative design",
+        "3D sculpture"
       ]
     }
   ],
   "skills": [
     {
-      "name": "Languages and Frameworks",
+      "name": "Innovation tools",
       "level": "",
       "keywords": [
-        "C",
-        "C++",
-        "Java",
+        "Hackathons",
+        "Creativity workshops",
+        "Game storming",
+        "Business model canvas",
+        "Lean startup"
+      ]
+    },
+    {
+      "name": "Project management",
+      "level": "",
+      "keywords": [
+        "SCRUM Master",
+        "Trello",
+        "Slack",
+        "Google Docs",
+        "Video conference"
+      ]
+    },
+    {
+      "name": "Programming Languages and Frameworks",
+      "level": "",
+      "keywords": [
+        "Python",
         "Javascript",
-        "Assembly",
-        "Common Lisp"
+        "PHP",
+        "Java"
       ]
     },
     {
       "name": "Toolsets/OS",
       "level": "",
       "keywords": [
-        "MacOS",
-        "Ubuntu",
+        "SCRUM",
         "Git/GitHub",
-        "g++",
-        "TI LaunchPad"
+        "Maven",
+        "Docker",
+        "MacOS",
+        "Ubuntu"
       ]
-    }
-  ],
-  "education": [
+    },
     {
-      "institution": "University of Hawaii, Honolulu, HI",
-      "area": "Computer Science (expected Spring, 2018)",
-      "studyType": "B.S.",
-      "startDate": "2013-09-01",
-      "endDate": "Present",
-      "gpa": "",
-      "courses": [
+      "name": "3D modeling",
+      "level": "",
+      "keywords": [
+        "Rhinoceros 3D",
+        "Grasshopper",
+        "ZBrush",
+        "Sketchup"
+      ]
+    },
+    {
+      "name": "3D printing",
+      "level": "",
+      "keywords": [
+        "Cura",
+        "Netfabb",
+        "Meshmixer"
+      ]
+    },
+    {
+      "name": "Photogrammetry",
+      "level": "",
+      "keywords": [
+        "Reality Capture",
+        "Photoscan"
+      ]
+    },
+    {
+      "name": "Productivity",
+      "level": "",
+      "keywords": [
+        "Word, Excel, Powerpoint",
+        "Video conference"
       ]
     }
   ],
   "work": [
     {
-      "company": "UH Manoa Board of Publications",
-      "position": "Web Developer",
-      "website": "",
-      "startDate": "2015-08-01",
+      "company": "BIMData.io",
+      "position": "Founder, CEO & Product Owner",
+      "website": "https://bimdata.io",
+      "startDate": "2016-07-01",
       "endDate": "Present",
-      "summary": "Head of online presence for Ka Leo",
+      "summary": "Strategy and operational management of a team of 7",
       "highlights": [
-        "Maintain, update, and oversee official college newspaper website",
-        "Drive, design and build student-community projects for UH Manoa"
+        "Create an online 3D viewer and a REST API for open BIM models management",
+        "Raise money from a leading company in the property management sector",
+        "Obtain public funding for innovation and R&D"
       ]
     },
     {
-      "company": "UH Information Technology Services",
-      "position": "Help Desk Consultant",
-      "website": "http://www.hawaii.edu/its/",
-      "startDate": "2015-01-01",
-      "endDate": "2016-03-15",
+      "company": "Oulypo",
+      "position": "Innovation and 3D printing consultant",
+      "website": "https://oulypo.com",
+      "startDate": "2015-07-01",
+      "endDate": "Present",
+      "summary": "Consulting and training in 3D printing and generative design",
+      "highlights": [
+        "Create online and offline 3D configurators",
+        "Train industry professionals in 3D printing"
+      ]
+    },
+    {
+      "company": "Astus Construction",
+      "position": "BIM and Fablab consultant",
+      "website": "http://www.astus-construction.fr/",
+      "startDate": "2014-09-01",
+      "endDate": "2015-12-15",
       "summary": "",
       "highlights": [
-        "Troubleshoot software, hardware and networking issues over the phone",
-        "Answer phone and email responses to the ITS Help Desk"
+        "Manage change in traditional building companies towards the BIM",
+        "Lead innovation projects involving large-scale 3D printing"
+      ]
+    },
+    {
+      "company": "Fabrique d'Objets Libres",
+      "position": "President",
+      "website": "http://www.fablab-lyon.fr/",
+      "startDate": "2012-10-01",
+      "endDate": "2015-03-01",
+      "summary": "Spread the word about 3D printing in the Lyon area",
+      "highlights": [
+        "Design and lead collaborative creativity workshops involving digital manufacturing, including 3D printing and laser scanning",
+        "Design and build custom digital manufacturing tools : 3D printers, drawing robot",
+        "Subcontract 3D design and 3D printing for businesses"
+      ]
+    },
+    {
+      "company": "Action on Line",
+      "position": "Lead developer",
+      "website": "https://actiononline.fr/",
+      "startDate": "2010-09-01",
+      "endDate": "2012-09-01",
+      "summary": "",
+      "highlights": [
+        "Maintain a catalog of 700+ Flash ActionScript 2 interactive e-learning modules' animations",
+        "Convert the whole catalog from ActionScript 2 to ActionScript 3",
+        "Manage a team of 2 developers and a graphic designer",
+        "Design and build two new e-learning modules"
       ]
     }
   ],
-  "volunteer": [
+  "education": [
     {
-      "organization": "Center for Renewable Energy and Island Sustainability",
-      "website": "http://manoa.hawaii.edu/reis",
-      "position": "Software Developer",
-      "startDate": "2016-01-01",
-      "endDate": "Present",
-      "summary": "Lead developer for weather sensing project",
-      "highlights": [
-        "Design firmware for distributed weather sensor network",
-        "Maintain custom data collection and storage infrastructure"
+      "institution": "Grenoble Ecole de Management, Grenoble",
+      "area": "Technological Innovation Management",
+      "studyType": "Master Executive",
+      "startDate": "2014-09-01",
+      "endDate": "2015-12-15",
+      "gpa": "",
+      "courses": [
+        "Strategy",
+        "Management",
+        "Marketing",
+        "Digital Marketing",
+        "Lean Management",
+        "Business model innovation"
       ]
     },
     {
-      "organization": "",
-      "website": "",
-      "position": "Professional organization involvement",
-      "startDate": "",
-      "endDate": "",
-      "summary": "",
-      "highlights": [
-        "Chair, ACM Manoa, 2016-Present",
-        "Member, IEEE Student Branch, 2014-Present",
-        "Webmaster/IT Officer, IEEE Student Branch, UH Manoa, 2012-2013"
-      ]
-    }
-  ],
-  "awards": [
-    {
-      "title": "B+ Scholarship",
-      "date": "2013-Present",
-      "awarder": "State of Hawaii",
-      "summary": "Scholarships awarded to incoming freshmen and continuing students who complete a rigorous high school curriculum with a minimum overall GPA of 3.0 at a Hawai'i public school."
+      "institution": "Institut National Géographique",
+      "area": "Photogrammetry for buildings and heritage",
+      "studyType": "Professional training",
+      "startDate": "2014-07-01",
+      "endDate": "2014-07-08"
     },
     {
-      "title": "First place",
-      "date": "2015",
-      "awarder": "University of Hawaii Micromouse Competition",
-      "summary": "My team won first place in 2015.  See my portfolio site for more details."
+      "institution": "AFPA",
+      "area": "Software Engineer",
+      "studyType": "Validation of prior experience",
+      "startDate": "2012-10-01",
+      "endDate": "2013-07-01"
+    },
+    {
+      "institution": "Centre Technique d'Infographie",
+      "area": "Software engineering and network architect",
+      "studyType": "Apprenticeship contract",
+      "startDate": "2002-09-01",
+      "endDate": "2003-06-01"
+    },
+    {
+      "institution": "Institution des Chartreux",
+      "area": "Economics",
+      "studyType": "Bachelor's degree",
+      "startDate": "1996-09-01",
+      "endDate": "1997-07-01"
     }
   ],
   "references": [
