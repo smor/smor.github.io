@@ -29,3 +29,6 @@ The purpose of the proof of concept is to validate the relevance of such an onli
 
 You can see a preview of the system above, and see it live below.
 
+<iframe src="https://openjscad.org/?uri=https://raw.githubusercontent.com/smor/smor.github.io/master/projects/pitherm-nida.jscad" 
+        width="800px" height="600px">
+</iframe>
