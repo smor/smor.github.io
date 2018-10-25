@@ -13,7 +13,4 @@ labels:
 summary: Design a parametric 3D printed breathing mask for newborns
 ---
 
-<iframe src="https://openjscad.org/?uri=https://raw.githubusercontent.com/fabriquedobjetslibres/wikimask/master/wikimask.jscad"
-    frameBorder="0"
-    width="800px" height="600px">
-</iframe>
+{% include openjscad-widget.html url="https://raw.githubusercontent.com/fabriquedobjetslibres/wikimask/master/wikimask.jscad" %}

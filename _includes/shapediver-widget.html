@@ -1,0 +1,4 @@
+<iframe id="sd-iframe-13923" width="{{include.width | default: '100%' }}" height="{{ include.height | default: 450}}" frameBorder="0" allowFullScreen src="https://shapediver.com/embed/{{include.id}}?viewerSettings=%7B%22allowFullscreen%22%3Atrue%2C%22showZoomControl%22%3Afalse%2C%22cameraRevertAtMouseUp%22%3Afalse%2C%22cameraAutoAdjust%22%3Afalse%2C%22staticControls%22%3Afalse%7D">
+    <p><a href='https://www.shapediver.com'>3d configurator powered by <b>ShapeDiver</b></a></p>
+</iframe>
+<script>document.getElementById('sd-iframe-13923').onload = function(){this.contentWindow.postMessage({'iFrameInit':true},'https://www.shapediver.com');}</script>
