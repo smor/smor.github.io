@@ -246,6 +246,26 @@
       "endDate": "1997-07-01"
     }
   ],
+  "publications": [
+    {
+      "name": "Quel business model pour un intermédiaire de l'innovation dans le contexte du BIM ?",
+      "type": "thesis",
+      "author": "Stéphane MOR",
+      "publisher": "Grenoble École de Management",
+      "releaseDate": "December, 2015",
+      "website": "https://www.academia.edu/20050419/Quel_business_model_pour_un_interm%C3%A9diaire_de_linnovation_dans_le_contexte_du_BIM_",
+      "summary": ""
+    },
+    {
+      "name": "From the Excavation to the Scale Model: a Digital Approach",
+      "type": "article",
+      "author": "E. Bouvard-Mor, H. Tronchère, J. Ramona, S. Mor, A. Fernagu",
+      "publisher": "CAA",
+      "releaseDate": "2015",
+      "website": "https://www.academia.edu/24157587/From_the_Excavation_to_the_Scale_Model_a_Digital_Approach",
+      "summary": ""
+    }
+  ],
   "references": [
     {
       "name": "Available upon request",
