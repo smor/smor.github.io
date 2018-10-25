@@ -46,7 +46,7 @@ I used the Rhinoceros3D software and its generative design plugin Grasshopper to
 
 <img src="../images/pitherm/Temisth_Echangeur_nidA_Cluster_20150929.png" width="100%">
 
-After some iterations, I ended up developing a custom Grasshopper module in Python, to gain performance and make the script simpler.
+After some iterations, I ended up developing a custom Grasshopper module in Python, to gain performance and make the script simpler. Here is an excerpt from Grasshopper's inline Python editor.
 
 <img src="../images/pitherm/pitherm_python.png">
 
