@@ -29,6 +29,7 @@ The purpose of the proof of concept is to validate the relevance of such an onli
 
 You can see a preview of the system above, and see it live below or [here](https://openjscad.org/?uri=https://raw.githubusercontent.com/smor/smor.github.io/master/projects/pitherm-nida.jscad){:target="_blank"}.
 
-<iframe src="https://openjscad.org/?uri=https://raw.githubusercontent.com/smor/smor.github.io/master/projects/pitherm-nida.jscad" 
+<iframe src="https://openjscad.org/?uri=https://raw.githubusercontent.com/smor/smor.github.io/master/projects/pitherm-nida.jscad"
+        frameBorder="0" 
         width="800px" height="600px">
 </iframe>
