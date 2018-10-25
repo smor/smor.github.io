@@ -5,7 +5,7 @@ image: images/pitherm/pitherm_square.jpg
 title: πTherm
 permalink: projects/pitherm
 # All dates must be YYYY-MM-DD format!
-# date: 2015-08-01
+date: 2015-08-01
 labels:
   - Generative design
   - 3D printing

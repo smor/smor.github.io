@@ -5,7 +5,7 @@ image: images/photogrammetry-statues.png
 title: Photogrammetry statues
 permalink: projects/photogrammetry-statues
 # All dates must be YYYY-MM-DD format!
-# date: 2015-07-01
+date: 2018-09-01
 labels:
   - 3D Scanning
 summary: 3D scanning of various statues.
