@@ -117,9 +117,17 @@
       "level": "",
       "keywords": [
         "Rhinoceros 3D",
-        "Grasshopper",
         "ZBrush",
         "Sketchup"
+      ]
+    },
+    {
+      "name": "Generative design",
+      "level": "",
+      "keywords": [
+        "Grasshopper",
+        "OpenJsCAD",
+        "ShapeDiver"
       ]
     },
     {
