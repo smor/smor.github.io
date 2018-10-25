@@ -32,6 +32,20 @@
       }
     ]
   },
+  "languages": [
+    {
+      "name": "French",
+      "level": "Native speaker"
+    },
+    {
+      "name": "English",
+      "level": "Fluent, CEFR C2 certified in 2013 (Cambridge Certificate of Proficiency in English)"
+    },
+    {
+      "name": "Spanish",
+      "level": "Fluent"
+    }
+  ],
   "interests": [
     {
       "name": "Innovation",
