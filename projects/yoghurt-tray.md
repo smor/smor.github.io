@@ -23,4 +23,4 @@ Please note that not all configurations are possible, and that this script is pr
 
 <img src="../images/legone/yoghurt-tray-grasshopper.png" width="100%"/>
 
-Here is what the Grasshopper looks like. I factorized some common functionalities under Grasshopper "*clusters*" which appear as a single block in the picture above. The full graph should thus appear much more complex than it actually looks.
+Here is what the Grasshopper script looks like. I factorized some common functionalities under Grasshopper "*clusters*" which appear as a single block in the picture above. The full graph should thus appear much more complex than it actually looks.
