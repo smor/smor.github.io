@@ -10,7 +10,8 @@ labels:
   - Generative design
   - 3D printing
   - 3D modeling
-summary: Design a parametric 3D printed ring with lattices product-design
+tags: generative-design 3D-printing 3D-modeling lattice product-design
+summary: Design a parametric 3D printed ring with lattices
 ---
 
 <img src="../images/lattice_ring/gh_intralattice.png" width="100%">
