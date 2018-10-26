@@ -10,6 +10,7 @@ labels:
   - Generative design
   - 3D printing
   - 3D modeling
+tags: generative-design 3D-printing 3D-modeling lattice
 summary: Experiment with lattice structures and generative design to create more complex shapes without adding logic complexity.
 ---
 
