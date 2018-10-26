@@ -15,5 +15,3 @@ summary: Design a parametric 3D printed ring with lattices
 ---
 
 <img src="../images/lattice_ring/gh_intralattice.png" width="100%">
-
-My 
