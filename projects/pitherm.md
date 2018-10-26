@@ -10,6 +10,7 @@ labels:
   - Generative design
   - 3D printing
   - 3D modeling
+tags: generative-design 3D-printing 3D-modeling
 summary: Design a parametric heat exchanger for metal 3D printing
 ---
 
