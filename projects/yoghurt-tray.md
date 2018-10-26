@@ -9,6 +9,7 @@ date: 2018-10-15
 labels:
   - Generative design
   - 3D printing
+tags: [product-design, 3D-printing, generative-design, online, demo]
 summary: A parametric yoghurt tray
 ---
 {% include shapediver-widget.html id="yoghurt-tray" %}

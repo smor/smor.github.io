@@ -1,0 +1,21 @@
+---
+layout: default
+---
+
+{% include menubar.html active="projects" %}
+
+<div style="margin-top: 20px; margin-bottom: 20px" class="ui container">
+<h1>Tag: {{ page.tag }}</h1>
+
+<h2>Projects with this tag</h2>
+<ul>
+{% assign project_pages = site.pages | where: "type", "project" | sort: "date" | reverse %}
+{% for project in project_pages %}
+  {% assign ttags = project.tags | compact %}
+  {% if ttags contains page.tag %}
+  <li><a href="{{ project.url }}">{{ project.title }}</a><br>
+    {{ project.summary }}
+  </li>
+  {% endif %}
+{% endfor %}
+</div>

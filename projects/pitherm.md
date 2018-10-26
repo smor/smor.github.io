@@ -10,7 +10,7 @@ labels:
   - Generative design
   - 3D printing
   - 3D modeling
-tags: generative-design 3D-printing 3D-modeling
+tags: [generative-design, 3D-printing, 3D-modeling, online, demo]
 summary: Design a parametric heat exchanger for metal 3D printing
 ---
 
@@ -30,12 +30,13 @@ The purpose of the proof of concept is to validate the relevance of such an onli
 
 You can see a preview of the system above, and see it live below or [here](https://openjscad.org/?uri=https://smor.fr/projects/pitherm-nida.jscad){:target="_blank"}.
 
+### Live demo
 <iframe src="https://openjscad.org/?uri=https://smor.fr/projects/pitherm-nida.jscad"
         frameBorder="0" 
         width="800px" height="600px">
 </iframe>
 
-## πTherm NidA
+## The first prototype: πTherm NidA
 
 <img src="../images/pitherm/pitherm_square.jpg" width="300px">
 
@@ -45,14 +46,19 @@ The final heat exchanger pictured above was 3D printed using Shapeways' online s
 
 I used the Rhinoceros3D software and its generative design plugin Grasshopper to design the model. 
 
+### Grasshopper script overview
+
 <img src="../images/pitherm/Temisth_Echangeur_nidA_Cluster_20150929.png" width="100%">
 
 After some iterations, I ended up developing a custom Grasshopper module in Python, to gain performance and make the script simpler. Here is an excerpt from Grasshopper's inline Python editor.
+
+### Code snippet
 
 <img src="../images/pitherm/pitherm_python.png">
 
 Here is one configuration of the final model.
 
+### Sample output (online 3D)
 {% include sketchfab-widget.html id="bc1296eec3c248159653db99397abc90" by="Stéphane MOR" name="πTherm NidA" %}
 
 ## πTherm Circular Heat Exchanger

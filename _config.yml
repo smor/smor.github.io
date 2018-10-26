@@ -25,3 +25,5 @@ rouge-theme: igorpro
 markdown: kramdown
 include: [_data]
 
+exclude: [tag_pages_generator.py]
+

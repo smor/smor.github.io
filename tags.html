@@ -1,0 +1,76 @@
+---
+layout: projects
+title: Tags list
+permalink: tags
+---
+
+<div style="margin-top: 20px; margin-bottom: 20px" class="ui container">
+
+  <h1>{{page.title}}</h1>
+
+{% comment %}
+=======================
+The following part extracts all the tags from your posts and sort tags, so that you do not need to manually collect your tags to a place.
+=======================
+{% endcomment %}
+{% assign rawtags = "" %}
+{% assign project_pages = site.pages | where: "type", "project"%}
+{% for post in project_pages %}
+  {% assign ttags = post.tags | join:'|' | append:'|' %}
+  {% assign rawtags = rawtags | append:ttags %}
+{% endfor %}
+{% assign rawtags = rawtags | split:'|' | sort %}
+
+{% comment %}
+=======================
+The following part removes dulpicated tags and invalid tags like blank tag.
+=======================
+{% endcomment %}
+{% assign tags = "" %}
+{% for tag in rawtags %}
+  {% if tag != "" %}
+    {% if tags == "" %}
+      {% assign tags = tag | split:'|' %}
+    {% endif %}
+    {% unless tags contains tag %}
+      {% assign tags = tags | join:'|' | append:'|' | append:tag | split:'|' %}
+    {% endunless %}
+  {% endif %}
+{% endfor %}
+
+{% comment %}
+=======================
+The purpose of this snippet is to list all the tags you have in your site.
+=======================
+{% endcomment %}
+{% for tag in tags %}
+  <div class="ui basic label"><a href="#{{ tag }}"><code class="highligher-rouge"><nobr>{{ tag }}</nobr></code>&nbsp;</a></div>
+{% endfor %}
+
+{% comment %}
+=======================
+The purpose of this snippet is to list all your posts posted with a certain tag.
+=======================
+{% endcomment %}
+{% for tag in tags %}
+  <h2 id="{{ tag | slugify }}">{{ tag }}</h2>
+  <ul>
+   {% for post in project_pages %}
+     {% if post.tags contains tag %}
+     <li>
+     <h3>
+     <a href="{{ post.url }}">
+     {{ post.title }}
+     <small>{{ post.date | date_to_string }}</small>
+     </a>
+     {% for tag in post.tags %}
+       <span class="ui basic label"><a href="#{{ tag }}"><code class="highligher-rouge"><nobr>{{ tag }}</nobr></code>&nbsp;</a></span>
+     {% endfor %}
+     </h3>
+     </li>
+     {% endif %}
+   {% endfor %}
+  </ul>
+{% endfor %}
+
+</div>

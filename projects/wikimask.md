@@ -10,6 +10,7 @@ labels:
   - Generative design
   - 3D printing
   - 3D modeling
+tags: [generative-design, 3D-printing, 3D-modeling, agile, demo, online]
 summary: Design a parametric 3D printed breathing mask for newborns
 ---
 

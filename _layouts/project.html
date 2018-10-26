@@ -8,14 +8,15 @@ layout: projects
 {% if page.tags %}
 <p>
   <span>
-    {% assign ptags = page.tags | split:' ' %}
-    {% for tag in ptags %}
+    {% for tag in page.tags %}
       {% capture tag_name %}{{ tag }}{% endcapture %}
       <div class="ui basic label"><a href="/tag/{{ tag_name }}"><code class="highligher-rouge"><nobr>{{ tag_name }}</nobr></code>&nbsp;</a></div>
     {% endfor %}
   </span>
 </p>
 {% endif %}
+
+  {% include toc.html html=content %}
 
   {{ content }}
 </div>
