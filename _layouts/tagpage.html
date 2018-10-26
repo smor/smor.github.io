@@ -12,7 +12,7 @@ layout: default
 {% assign project_pages = site.pages | where: "type", "project" | sort: "date" | reverse %}
 {% for project in project_pages %}
   {% assign ttags = project.tags | compact %}
-  {% if ttags contains page.tag %}
+  {% if ttags contains page.tag and project.draft != true %}
   <li><a href="{{ project.url }}">{{ project.title }}</a><br>
     {{ project.summary }}
   </li>
